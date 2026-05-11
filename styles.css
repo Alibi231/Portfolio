@@ -1,5 +1,15 @@
 body{
-    margin: 0;
-    background: pink;
-    text-align: center;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.middle-container {
+  width: 33.33vw;          /* one third of screen width */
+  min-height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
