@@ -19,9 +19,13 @@ body {
   padding: 20px;
   box-sizing: border-box;
 
-  border: 2px solid black;
   background: pink;
 
   font-family: Arial, sans-serif;
   text-align: left;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
