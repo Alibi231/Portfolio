@@ -14,7 +14,6 @@ body {
 
 .middle-container {
   width: 100%;
-  min-height: 200px;
 
   padding: 20px;
   box-sizing: border-box;
@@ -32,6 +31,7 @@ body {
 @media (any-pointer: fine) {
   .middle-container {
     width: 33.33vw;
+    min-height: 200px;
   }
 }
 
