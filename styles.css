@@ -13,7 +13,7 @@ body {
 }
 
 .middle-container {
-  width: 33.33vw;
+  width: 100%;
   min-height: 200px;
 
   padding: 20px;
@@ -31,20 +31,7 @@ body {
 
 @media (any-pointer: fine) {
   .middle-container {
-  width: 33.33vw;
-  min-height: 200px;
-
-  padding: 20px;
-  box-sizing: border-box;
-
-  background: pink;
-
-  font-family: Arial, sans-serif;
-  text-align: left;
-
-  border: 0;
-  outline: 0;
-  box-shadow: none;
+    width: 33.33vw;
   }
 }
 
