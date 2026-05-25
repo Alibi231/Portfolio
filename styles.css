@@ -28,7 +28,7 @@ body {
   box-shadow: none;
 }
 
-@media (any-pointer: fine) {
+@media (min-width: 768px) {
   .middle-container {
     width: 33.33vw;
     min-height: 200px;
